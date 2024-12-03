@@ -1,0 +1,94 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+header img {
+    width: 1700px;
+    height: 700px;
+    display: block;
+}
+/* Navegador */
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Contenido principal */
+main {
+    display: flex;
+    padding: 20px;
+}
+
+section {
+    flex: 3;
+    padding-right: 20px;
+}
+
+aside {
+    flex: 1;
+    background: #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer .social-links img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+/* Enlace flotante de WhatsApp */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp-float img {
+    width: 35px;
+    height: 35px;
+}
+
+
+
